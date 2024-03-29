@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Place - Madhya Pradesh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://font.googleapis.com/css2? 
+    family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(60, 9, 9, 0.7), rgba(58, 8, 8, 0.7)), url(images/mp\ background.jpeg);
+            background-position: center;
+            background-size: cover;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            height: 12%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 55px;
+            cursor: pointer;
+        }
+
+        .menu-icon {
+            width: 30px;
+            cursor: pointer;
+            margin-left: 40px;
+
+        }
+
+        nav {
+            flex: 2;
+            text-align: right;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline;
+            margin-left: 60px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 13px;
+        }
+
+        img icon {
+            margin-left: 10px;
+        }
+
+        .row {
+            display: flex;
+            height: 80%;
+            align-items: center;
+        }
+
+        .col {
+            flex-basis: 80%;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 65px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 15px;
+            line-height: 15px;
+        }
+
+
+        button {
+            width: 180px;
+            color: #000;
+            font-size: 12px;
+            padding: 12px 0;
+            background: #fff;
+            border: 0;
+            border-radius: 20px;
+            outline: none;
+            margin-top: 30px;
+
+        }
+
+
+        .card {
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 15px 25px;
+            background-position: center;
+            background-size: cover;
+            transition: transform 0.5s;
+        }
+
+
+        .card1 {
+            background-image: url(images/mp\ pic\ 1.jpg);
+        }
+
+        .card2 {
+            background-image: url(images/mp\ pic\ 2.jpeg);
+        }
+
+        .card3 {
+            background-image: url(images/mp\ pic\ 3.jpg);
+        }
+
+        .card4 {
+            background-image: url(images/mp\ pic\ 4.jpeg);
+
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        h5 {
+            color: #100606;
+            text-shadow: 0 0 5px #999;
+            font-size: 18px;
+        }
+
+        .card p {
+            text-shadow: 0 0 15px #000;
+            font-size: 9px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/madhya-pradesh-logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">REGION</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" id="img icon" class="menu-icon">
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Madhya Pradesh </h1>                                                
+                <p>Madhya Pradesh is a state in central India known for its rich cultural heritage, historical
+                    landmarks, and natural beauty. It is home to many famous tourist destinations, including ancient
+                    temples, national parks, and wildlife sanctuaries.
+                </p>
+                <button type="button">Explore</button>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h5>Orchha</h5>
+                    <p>Orchha is a historical town located on the banks of river Betwa in Madhya Pradesh, known for its
+                        grand palaces, and intricately carved temples. Famously known as the city of palaces, it is
+                        world-renowned for the classic mural paintings, frescos and Chhatris (cenotaphs) that were
+                        constructe.</p>
+                </div>
+                <div class="card  card2">
+                    <h5>Bhedaghat</h5>
+                    <p>Bhedaghat is known for the Dhuandar Falls (Dhuan means smoke and Dhar means flow), a huge cascade
+                        of water that falls from a height of 98 feet. Boating in Bhedaghat especially during the moonlit
+                        night would surely make up for an unforgettable experience. </p>
+                </div>
+                <div class="card  card3">
+                    <h5>Pachmarhi</h5>
+                    <p>Pachmarhi is the only hill station and is the highest point in Madhya Pradesh. Pachmarhi is also
+                        often known as "Satpura ki Rani" or the "Queen of the Satpura Range". Situated at an altitude of
+                        1,067 metres, the picturesque town is a part of UNESCO Biosphere Reserve.</p>
+                </div>
+                <div class="card  card4">
+                    <h5>Bandhavgarh National Park</h5>
+                    <p>Formerly a hunting ground for the Maharajas of Rewa, the Bandhavgarh National Park is
+                        world-renowned
+                        as a tiger reserve and it is known to have the highest density of Bengal tigers in the world.
+                        The
+                        frequent sightings of royal tigers make this national park a must-visit for all wildlife
+                        enthusi.
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
